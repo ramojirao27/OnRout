@@ -1,0 +1,25 @@
+# Ignore node_modules in frontend
+/frontend/node_modules/
+
+# Ignore node_modules in backend
+/backend/node_modules/
+# Ignore environment files for frontend
+/frontend/.env
+
+# Ignore environment files for backend
+/backend/.env
+
+# Optionally, ignore other environment-specific files
+*.env.local
+*.env.production
+*.env.test
+
+
+# Optional: Ignore log files and temporary files
+*.log
+*.tmp
+*.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
